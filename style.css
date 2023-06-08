@@ -47,14 +47,13 @@
 
 .intro__content{
   font-family: 'Poppins', sans-serif;
-  width: 90%;
+  width: 87%;
   margin: 0 auto;
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
-  height: 30vh;
-  position: relative;
+  justify-content: space-around;
+  min-height: 60vh;
 }
 
 .intro__content h1{
@@ -101,10 +100,7 @@
   background-color: #e5e5e5;
 }
 
-.intro__content-images{
-  position: absolute;
-  top: 300px;
-}
+
 
 .image1{
   z-index: 1;
@@ -116,9 +112,9 @@
 
 .video__content{
   background-color: #131316;
-  height: 60vh;
+  min-height: 58vh;
   width: 100%;
-  margin-top: 400px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,6 +128,7 @@
   margin-top: 70px;
   width: 55%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 
@@ -143,6 +140,7 @@
   font-weight: 500;
   background-color: #4891FF;
   color: #fff;
+  margin-top: 40px;
 }
 
 .video__content-btn:hover{
@@ -172,7 +170,35 @@
   width: 63%;
 }
 
+.testimonies__content__cards-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
 
+.testimonies__content__card{
+  font-family: 'Poppins', sans-serif;
+  color: #131316;
+  background-color: white;
+  width: 405px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.short{
+  height: 308px;
+}
+
+.tall{
+  height: 452px;
+}
+
+.medium{
+  height: 360px;
+}
 
 
 
@@ -206,7 +232,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 400px;
+    min-height: 60vh;
   }
 
   .intro__content h1{
@@ -241,8 +267,8 @@
   }
 
   .intro__content-images{
-    margin-top: 150px;
     width: 100%;
+    margin-top: 20px;
   }
 
   .image1{
@@ -257,8 +283,7 @@
   }
 
   .video__content{
-    height: 40vh;
-    margin-top: 620px;
+    min-height: 60vh;
   }
 
   .video__content h2{
